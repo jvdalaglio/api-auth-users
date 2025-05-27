@@ -64,7 +64,7 @@ const authModel = {
 
     if (!isPasswordValid) {
       return {
-        message: "Senha incorreta",
+        message: "Usuário e/ou senha incorreta",
         status: 401,
       };
     }
